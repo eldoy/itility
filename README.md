@@ -5,13 +5,13 @@ Utility functions for things you need all the time in node.
 ### INSTALL
 ```npm i itility``` or ```yarn add itility```
 
-### USAGE
+### FUNCTIONS
 
 ```javascript
 const itil = require('itility')
 ```
 
-##### Environment mode
+#### Environment mode
 Get strings based on the NODE_ENV you are in.
 ```javascript
 // DBURL will be mongodb://localhost:27017 in development
