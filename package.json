@@ -1,0 +1,33 @@
+{
+  "name": "itility",
+  "version": "0.0.1",
+  "description": "Utility functions for things you need all the time in node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fugroup/itility.git"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "fugroup <vidar@fugroup.net>",
+  "license": "MIT",
+  "dependencies": {},
+  "keywords": [
+    "node",
+    "env",
+    "config",
+    "NODE_ENV",
+    "string",
+    "url",
+    "util",
+    "utilities",
+    "generator"
+  ],
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
