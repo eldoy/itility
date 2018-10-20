@@ -8,8 +8,8 @@ itility.mode = (x, d, s, p) => {
   }
 
   let a
-  if (typeof x === 'object') {
-    a = x
+  if (typeof d === 'object') {
+    a = d
   } else  {
     a = { 'test': d, 'development': d, 'staging': s, 'production': p }
   }
